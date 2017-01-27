@@ -1,0 +1,11 @@
+name: Reviewer
+version: 1.0.0
+main: RTG\GitHub\Review
+api: 2.1.0
+commands:
+    review:
+        permission: review.add
+        description: "Adds review!"
+permissions:
+    review.add:
+        default: op
